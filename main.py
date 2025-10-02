@@ -1,27 +1,7 @@
 """
 Minimal To-Do List Manager
-Single-file starter using Python + ttkbootstrap + SQLite
 
-How to use:
-1. Install dependency: pip install ttkbootstrap
-2. Save this file as todo_app.py
-3. Run: python todo_app.py
-
-Features implemented (minimal, but practical):
-- Add / Edit / Delete tasks
-- Mark complete / incomplete (double-click)
-- Simple fields: title, notes, due date (YYYY-MM-DD), priority
-- Persistent storage using SQLite (tasks.db created next to script)
-- Export tasks to CSV
-- Basic validation and confirmations
-
-Notes / next steps you can add:
-- Replace due-date Entry with tkcalendar.DateEntry for better UX
-- Add search / filters / sorting
-- Use threads for long IO (not necessary for this small app)
-- Add reminders/notifications
-
-Author: ChatGPT (starter template)
+Author: Elijah Josephson
 """
 
 import sqlite3
